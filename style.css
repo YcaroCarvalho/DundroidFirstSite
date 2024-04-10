@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'droid' ;
+    src: url('idroid.otf') format('opentype');
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+body h1{
+    font-family: droid;
+    margin: 0px;
+    padding: 0
+}
+body h2{
+    padding: 2px;
+    margin-top: 25px;
+    font-family: droid;
+}
+body{
+    background-color: #82D9A0;
+}
+img{
+    margin: auto;
+    display: block;
+}
+iframe{
+    margin: auto;
+    display: block;
+    
+}
+header {
+    background-image:linear-gradient(180deg, #3CD781 , #1A5B38);
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 20px;
+    text-shadow: black 2px 2px 0px;
+  
+
+}
+header h1 {
+    margin-bottom: 32px;
+   
+}
+header p {
+    text-shadow: none;
+    font-size: 15px;
+}
+nav {
+    display: flex;
+    padding-bottom: 0px;
+    text-shadow: none;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+    
+
+nav a {
+    margin-top: 30px; 
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav > a:hover {
+  
+    background-color: #3CD781;
+    color: #094d28;
+    border-radius: 2px;
+    transition-duration:.70s;
+}
+main {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: auto;
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.685);
+    border-radius: 0px 0px 10px 10px;
+}
+main strong{
+    font-weight: bold ;
+    color: #1A5B38;
+    
+}
+main img {
+    width: 100%;
+}
+main p {
+    margin:15px 0px;
+    text-indent: 30px;
+}
+main h1 {
+    color:#094d28  ; 
+   
+    
+}
+main h2 {
+    color:#094d28  ;
+    background-image:linear-gradient(1200deg,#189b53, #fff); 
+}
+main a {
+    text-decoration: none;
+    color: #094d28;
+    background-color: #82D9A0;
+}
+main a:hover {
+    text-decoration: unde;
+}
+footer{
+    background-color: #094d28;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.box{
+    margin: 20px;
+    background-color: #b6dfc4;
+    border-radius: 20px;
+}
+.box p {
+    padding-left: 10px;
+}
+.box h4{
+    padding: 15px;
+    background-color: #189b53;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.box ul{
+    columns: 2;
+    
+}
+.box li {
+    list-style-type: none;
+    display: flex;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-left: 10px;
+    
+}
+.box p {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+abbr {
+    text-decoration: none;
+}
+.bugdroid {
+    max-width: 400px;
+}
